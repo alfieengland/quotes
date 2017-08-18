@@ -10,7 +10,7 @@
   </head>
   <body>
     <div class="nav">
-      <a href="index.php">Quotes</a>
+      <a href="index.php" style="background-color: #6A637F;">Quotes</a>
       <a href="dunhim.php">Dun Him of the Week</a>
     </div>
     <table class="quotes">
