@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>The Quotes</title>
+    <link rel="shortcut icon" href = "http://i.imgur.com/dJrYdE4.png">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="eric-meyer-reset.css">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400" rel="stylesheet">
