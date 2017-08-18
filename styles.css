@@ -1,0 +1,49 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.04em;
+  color: #190933;
+}
+
+.quotes {
+  width: 100vw;
+}
+
+.columnId,
+.rowId,
+.columnName,
+.rowName,
+.columnQuote,
+.rowQuote {
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/* Horizontal border-lines (underneath table headings) */
+.columnId,
+.columnName,
+.columnQuote {
+  border-bottom: 1px solid #190933;
+}
+
+.rowId,
+.rowName,
+.rowQuote {
+  font-weight: lighter;
+}
+
+/* Vertical Border-lines */
+.columnId,
+.rowId,
+.columnName,
+.rowName {
+  border-right: 1px solid #190933;
+}
+
+/* Centers ID heading and numbers */
+.columnId,
+.rowId {
+  text-align: center;
+  width: 3%;
+}
