@@ -11,7 +11,7 @@
   <body>
     <div class="nav">
       <a href="index.php">Quotes</a>
-      <a href="dunhim.php"  style="background-color: #6A637F;">Dun Him of the Week</a>
+      <a href="dunhim.php" style="background-color: #6A637F;">Dun Him of the Week</a>
     </div>
     <table class="quotes">
       <tr class="heading">
