@@ -1,6 +1,6 @@
 * {
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.04em;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.02em;
   color: #190933;
 }
 
@@ -59,6 +59,7 @@ body {
 .rowName,
 .rowQuote {
   font-weight: lighter;
+  border-bottom: 1px solid #f0e9fb;
 }
 
 /* Vertical Border-lines */
