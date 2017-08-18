@@ -20,7 +20,7 @@ body {
 
 .nav a {
   text-decoration: none;
-  width: 50vw;
+  width: calc(100% / 3);
   display: inline-block;
   float: left;
   font-size: 140%;
