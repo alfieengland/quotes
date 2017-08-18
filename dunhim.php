@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>The Quotes</title>
+    <title>Dun Him of the Week</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="eric-meyer-reset.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
@@ -15,19 +15,19 @@
     <table class="quotes">
       <tr class="heading">
         <th class="columnId">ID</th>
-        <th class="columnName">Name</th>
-        <th class="columnQuote">Quote</th>
+        <th class="columnName">Date</th>
+        <th class="columnQuote">Dun Him</th>
       </tr>
     <?php
       include('credentials.php');
-      $query = mysqli_query($con, "SELECT * FROM tb_quotes");
+      $query = mysqli_query($con, "SELECT * FROM tb_dunhim");
 
       while ($row = mysqli_fetch_array($query)) {
         $id = $row['id'];
-        $name = $row['name'];
-        $quote = $row['quote'];
+        $name = $row['date'];
+        $quote = $row['dunhim'];
 
-        echo "<tr class='quote'><td class='rowId'>" . $id . "</td><td class='rowName'>" . $name . "</td><td class='rowQuote'>" . $quote . '</td></tr>';
+        echo "<tr class='quote'><td class='rowId'>" . $id . "</td><td class='rowName'style='text-align: center';>" . $name . "</td><td class='rowQuote'>" . $quote . '</td></tr>';
       }
     ?>
     </table>
